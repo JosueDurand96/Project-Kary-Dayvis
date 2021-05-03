@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_EditUser"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Mi Perfil" />
+
+        <item
+            android:id="@+id/nav_catalogoVideojuegos"
+            android:icon="@drawable/detalle_partidas"
+            android:title="Catalogo Videojuegos" />
+        <item
+            android:id="@+id/nav_soporte"
+            android:icon="@drawable/icon_enviar"
+            android:title="Soporte" />
+
+        <item
+            android:id="@+id/nav_cerrarSesion"
+            android:icon="?attr/actionModeCloseDrawable"
+            android:title="Cerrar Sesión" />
+
+
+
+
+
+    </group>
+</menu>

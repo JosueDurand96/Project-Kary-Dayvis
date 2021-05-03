@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".newUser">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Apellidos"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtApellido"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="168dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="520dp"
+        android:fontFamily="sans-serif-light"
+        android:text="¿Eres un booster?"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.288"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblIdSteam"
+        android:layout_width="111dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="560dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Id Steam"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-light"
+        android:text="DNI"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="448dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Alias"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="412dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Clave"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/EsBooster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="516dp"
+        android:background="#434141"
+        android:backgroundTint="#4C4646"
+        android:textOff="No"
+        android:textOn="Sí"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="484dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Fotografía"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Usuario"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="224dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Nombre"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="336dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Correo"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="202dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/logov1" />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#450404"
+        android:text="Confirmar"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+
+        app:icon="@drawable/check"
+
+        app:iconTint="#F8F7F7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EsBooster"
+        app:layout_constraintVertical_bias="0.697"
+        tools:text="Confirmar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="232dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:text="Registro de nuevo usuario"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="208dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtDni"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="284dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="356dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:maxLength="10"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="396dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:maxLength="8"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtIdSteam"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAlias"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/choose"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="116dp"
+        android:text="CHOOSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#450404"
+        android:textColor="#FFFFFF"
+        app:layout_constraintVertical_bias="0.685" />
+    <Button
+        android:id="@+id/capture"
+        android:layout_width="152dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#450404"
+        android:text="Capturar"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:icon="@drawable/ic_menu_camera"
+        app:iconTint="#F8F7F7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EsBooster"
+        app:layout_constraintVertical_bias="0.697"
+        tools:text="Capture" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".login">
+
+    <EditText
+        android:id="@+id/txtUsuariologin"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="52dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName7"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="283dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:text="Síguenos en ..."
+        android:textAlignment="viewStart"
+        android:textColor="#8C8C8C"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName6"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="263dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:text="Con todo menos con miedo"
+        android:textAlignment="center"
+        android:textColor="#6A6666"
+        android:textStyle="italic"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="220dp"
+        android:backgroundTint="#450404"
+        android:onClick="login"
+        android:text="Ingresar"
+        android:textSize="10sp"
+        app:icon="@drawable/login_app"
+        app:iconTint="#F8F7F7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657"
+        tools:text="Ingresar" />
+
+    <EditText
+        android:id="@+id/txtPasswordLogin"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="56dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="352dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Clave"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="89dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Usuario"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="267dp"
+        android:layout_height="189dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/logov1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+        app:layout_constraintVertical_bias="0.344"
+        app:srcCompat="@drawable/icon_facebook" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@drawable/icon_youtube" />
+</androidx.constraintlayout.widget.ConstraintLayout>

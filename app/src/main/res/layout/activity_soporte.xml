@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+  >
+
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="171dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="196dp"
+        android:backgroundTint="#450404"
+        android:onClick="Enviar"
+        android:text="Enviar"
+        android:textSize="12sp"
+        app:icon="@drawable/icon_enviar"
+        app:iconTint="#F8F7F7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946"
+        tools:text="Enviar" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress6"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="8"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress5"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#AAA7A7"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:textColor="#F8F2F2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="201dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="228dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Formulario de soporte"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="101dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="372dp"
+        android:fontFamily="sans-serif-light"
+        android:text="DNI"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="90dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="416dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Correo"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="90dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="484dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Detalle"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="136dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="452dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Alias del booster"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="267dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="272dp"
+        android:fontFamily="sans-serif-light"
+        android:text="En caso hayas sufrido una estafa por parte de uno de los booster o tu cuenta se haya visto afectada negativamente, favor de brindarnos el detalle de lo sucedido y lo revisaremos en breve."
+        android:textColor="#C3BEBE"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="250dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/logov1" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="184dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="24dp"
+        android:width="2dp"
+        android:background="#60636161"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxLength="200"
+        android:textColor="#F3EFEF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "320649696368",
+    "project_id": "dtaengineer-d379b",
+    "storage_bucket": "dtaengineer-d379b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320649696368:android:7603289e8154ac63ec90b5",
+        "android_client_info": {
+          "package_name": "com.example.boosters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320649696368-dlmpu64hlo8n02s4f934ahudp79dvtku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boosters",
+            "certificate_hash": "f8c9dab0b6ebd99a071e83dea9c7d9ec37399210"
+          }
+        },
+        {
+          "client_id": "320649696368-539hlc6gndc3it6h79ngnecdpvq96jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5XJQCDV-aHwTETqJdAlRXiexV7f9WxpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320649696368-539hlc6gndc3it6h79ngnecdpvq96jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320649696368:android:e14e7ff0b8407a92ec90b5",
+        "android_client_info": {
+          "package_name": "net.smallacademy.cameraandgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320649696368-539hlc6gndc3it6h79ngnecdpvq96jbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5XJQCDV-aHwTETqJdAlRXiexV7f9WxpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320649696368-539hlc6gndc3it6h79ngnecdpvq96jbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

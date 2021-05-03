@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_EditUser"
+        android:name="com.example.boosters.ui.EditUsuario.EditUser"
+        android:label="Actualizar mis datos"
+        tools:layout="@layout/edit_user_fragment" />
+
+    <fragment
+        android:id="@+id/nav_catalogoVideojuegos"
+        android:name="com.example.boosters.ui.CatalogoVideojuegos.CatalogoVideojuegos"
+        android:label="Catalogo Videojuegos"
+        tools:layout="@layout/catalogo_videojuegos_fragment" />
+
+    <fragment
+        android:id="@+id/nav_soporte"
+        android:name="com.example.boosters.ui.Soporte.Soporte"
+        android:label="Soporte"
+        tools:layout="@layout/soporte_fragment" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.boosters.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+</navigation>
